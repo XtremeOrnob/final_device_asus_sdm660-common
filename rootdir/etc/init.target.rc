@@ -71,6 +71,7 @@ on late-fs
 
     # Make sure HW service manager started and start required HAL services
     wait_for_prop hwservicemanager.ready true
+    start vendor.hwcomposer-2-1
     start vendor.configstore-hal
     start vendor.gralloc-2-0
 
