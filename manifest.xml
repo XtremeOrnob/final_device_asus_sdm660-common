@@ -228,7 +228,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>com.qualcomm.qti.ant</name>
         <name>com.dsi.ant</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
